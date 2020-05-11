@@ -2,6 +2,7 @@ import React ,{Component} from 'react';
 import'./App.css';
 import introduction from './components/introduction'
 import about from './components/about'
+import sidebar from './components/sidebar'
 
 class App extends Component{
     render(){
