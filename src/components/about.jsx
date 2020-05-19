@@ -1,74 +1,120 @@
-import React, {component} from 'react'
+import React, {Component} from 'react'
 
- class About extends component{
-    render(){
+
+ class About extends Component{
+     render(){
+    
         return(
-            <div>
-        <section className="colorlib-about" data-section="about">
-        <div className="colorlib-narrow-content">
-            <div className="row">
-            <div className="col-md-12">
-                <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                <div className="col-md-12">
-                    <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a software undergraduate student from Makerere University with ICT as my major.I desire exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
-                    </div>
-                </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <section className="colorlib-about">
-        <div className="colorlib-narrow-content">
-            <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I  enjoy doing?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
-            </div>
-            </div>
-            <div className="row row-pt-md"></div>
-            <div className="col-md-4 text-center animate-box">
-            <div className="services color-1">
-            <span className="icon">
-                <i className="icon-bulb" />
-            </span>
-            <div className="desc">
-                <h3>Web Development </h3>
-                <p>I have experience building websites  using JavaScript,React,HTML,CSS</p>
-            </div>
-            </div>
-        </div>
-        </div>
-        </section>
-        <div className="col-md-4 text-center animate-box">
-            <div className="services color-3">
-            <span className="icon">
-                <i className="icon-phone3" />
-            </span>
-            <div className="desc">
-                <h3>Skills Training</h3>
-                <p>I am building my programming skills by exploring and interacting with basic frameworks like react,html and css</p>
-            </div>
-            </div>
-        </div>
-        <div className="col-md-4 text-center animate-box">
-            <div className="services color-5">
-            <span className="icon">
-                <i className="icon-data" />
-            </span>
-            <div className="desc">
-                <h3>Dev Ops</h3>
-            <p>I am pursuing a Bachelor of Science in Software Engineering at Makerere University Uganda.</p>
+           <React.Fragment>  {/* Our Services Start */}
+           <div class="our-services  pt-50 pb-150">
+               <div class="container">
+                   <div class="row">
+                       <div class=" col-lg-4 col-md-6 col-sm-6">
+                           <div class="single-services text-center mb-30">
+                               <div class="services-ion">
+                                   <span class="flaticon-experience"></span>
+                               </div>
+                               <div class="services-cap">
+                                   <h5>Strategic Planning</h5>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class=" col-lg-4 col-md-6 col-sm-6">
+                           <div class="single-services text-center mb-30">
+                               <div class="services-ion">
+                                   <span class="flaticon-pay"></span>
+                               </div>
+                               <div class="services-cap">
+                                   <h5>Trades & stocks</h5>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class=" col-lg-4 col-md-6 col-sm-6">
+                           <div class="single-services text-center mb-30">
+                               <div class="services-ion">
+                                   <span class="flaticon-good"></span>
+                               </div>
+                               <div class="services-cap">
+                                   <h5>Audit & Assurance</h5>
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           {/*Our Services End */}
+           {/* Visit Our Tailor Start */}
+           <div class="visit-tailor-area fix">
+               {/*Right Contents  */}
+               <div class="tailor-offers"></div>
+               {/* left Contents */}
+               <div class="tailor-details">
+                   <span>All of our Skills In The Fild</span>
+                   <h3>Differentiate Yourself And <br/>Attractive Attention</h3>
+                   <p>Tempor incididunt ut labore et cvhjfhore magna aliqua. Ut<br/> enim ad minim veniam, quis.</p>
+                    {/* skill Start */}
+                   <div class="skill-ara">
+                       <div class="skill">
+                           <div class="single-skill">
+                               <div class="progress-count">
+                                   <p>User Interface</p><span>75%</span>
+                               </div>
+                               <div class="progress">
+                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" aria-valuenow="25" role="progressbar" style={{width:"75%" }}  aria-valuemin="0" aria-valuemax="100"></div>
+                               </div>
+                           </div>
+                           <div class="single-skill">
+                               <div class="progress-count">
+                                   <p>Digital Marketing</p><span>89%</span>
+                               </div>
+                               <div class="progress">
+                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style={{width:"89%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                               </div>
+                           </div>
+                           <div class="single-skill">
+                               <div class="progress-count">
+                                   <p>User Interface</p><span>95%</span>
+                               </div>
+                               <div class="progress">
+                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".6s" role="progressbar" style={{width: "95%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   {/* skill End */}
+               </div>
+   
+           </div>
+           {/* Visit Our Tailor End */}
+           {/*Want To Work Start */}
+           <div class="wantToWork-area w-padding3">
+               <div class="container">
+                   <div class="row align-items-end">
+                       <div class="col-xl-5 col-lg-7 col-md-8">
+                           <div class="wantToWork-caption">
+                               <p>Works That We Done Recently</p>
+                               <h2>All startups need to make their business work</h2>
+                           </div>
+                       </div>
+                       <div class="col-xl-7 col-lg-5 col-md-4">
+                           <div class="wantToWork-btn f-right">
+                               <a href="#" class="btn btn-ans">view more</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+  
 
-            </div>
-            </div>
-            </div>
-            </div>
-        )
-    }
+           </React.Fragment>
+
+         
+            
+        );
+     }
+        
 }
 export default About;

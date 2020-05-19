@@ -1,22 +1,29 @@
 import React ,{Component} from 'react';
 import'./App.css';
-import introduction from './components/introduction'
-import about from './components/about'
-import sidebar from './components/sidebar'
+import Home from './components/Home'
+import About from './components/About'
+import Works from './components/Works'
 
 class App extends Component{
     render(){
         return(
-            <div id="colorlib-page">
-                <div id="container-wrap">
-                    <sidebar></sidebar>
-                    <div id="colorlib-main">
-                        <introduction></introduction>
-                        <about></about>
-                                           </div>
-                </div>
-            </div>
-        )
+            <div class="header-area header_area header-transparent">
+            <div class="main-header">  
+            <div class="main-menu f-right d-none d-lg-block"></div>
+            <ul id="navigation">  
+            <Home></Home>
+            <About></About>
+        <Works> </Works>
+        </ul>
+        </div>
+        </div>
+
+                
+                
+        
+
+            
+        );
     }
 }
 
