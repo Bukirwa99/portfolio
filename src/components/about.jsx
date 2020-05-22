@@ -63,7 +63,7 @@ import React, {Component} from 'react'
                                    <p>User Interface</p><span>75%</span>
                                </div>
                                <div class="progress">
-                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" aria-valuenow="25" role="progressbar" style={{width:"75%" }}  aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" datawowDelay=".5s" aria-valuenow="25" role="progressbar" style={{width:"75%" }}  ariaValuemin="0" ariaValuemax="100"></div>
                                </div>
                            </div>
                            <div class="single-skill">
@@ -71,7 +71,7 @@ import React, {Component} from 'react'
                                    <p>Digital Marketing</p><span>89%</span>
                                </div>
                                <div class="progress">
-                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style={{width:"89%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style={{width:"89%" }} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100"></div>
                                </div>
                            </div>
                            <div class="single-skill">
@@ -79,7 +79,7 @@ import React, {Component} from 'react'
                                    <p>User Interface</p><span>95%</span>
                                </div>
                                <div class="progress">
-                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".6s" role="progressbar" style={{width: "95%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                   <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".6s" role="progressbar" style={{width: "95%"}} ariaValuenow="25" aria-valuemin="0" ariaValuemax="100"></div>
                                </div>
                            </div>
                        </div>
@@ -101,7 +101,7 @@ import React, {Component} from 'react'
                        </div>
                        <div class="col-xl-7 col-lg-5 col-md-4">
                            <div class="wantToWork-btn f-right">
-                               <a href="#" class="btn btn-ans">view more</a>
+                               
                            </div>
                        </div>
                    </div>

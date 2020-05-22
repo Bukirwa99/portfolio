@@ -2,68 +2,47 @@ import React,{Component} from 'react'
  class Works extends Component{
     render(){
         return(
-            <React.Fragment> {/* Visit Our Tailor Start */}
-            <div class="visit-tailor-area fix">
-                {/*Right Contents  */}
-                <div class="tailor-offers"></div>
-                {/* left Contents */}
-                <div class="tailor-details">
-                    <span>All of our Skills In The Fild</span>
-                    <h3>Differentiate Yourself And <br/>Attractive Attention</h3>
-                    <p>Tempor incididunt ut labore et cvhjfhore magna aliqua. Ut<br/> enim ad minim veniam, quis.</p>
-                     {/* skill Start */}
-                    <div class="skill-ara">
-                        <div class="skill">
-                            <div class="single-skill">
-                                <div class="progress-count">
-                                    <p>User Interface</p><span>75%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" aria-valuenow="25" role="progressbar" style="width: 75%"  aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+            <React.Fragment> 
+                <div class="our-services  pt-50 pb-150">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-experience"></span>
                             </div>
-                            <div class="single-skill">
-                                <div class="progress-count">
-                                    <p>Digital Marketing</p><span>89%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style="width: 89%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="progress-count">
-                                    <p>User Interface</p><span>95%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".6s" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
+                            <div class="services-cap">
+                                <h5>Academic background</h5>
+                                <p>I am currently a student at Makerere University, Pursuing a Bsc in Software engineering year1.i have interacted with the raect framework,html,css and javascript.</p>
                             </div>
                         </div>
                     </div>
-                    {/* skill End */}
-                </div>
-    
-            </div>
-            {/* Visit Our Tailor End */}
-            {/* Want To Work Start */
-            <div class="wantToWork-area w-padding3">
-                <div class="container">
-                    <div class="row align-items-end">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="wantToWork-caption">
-                                <p>Works That We Done Recently</p>
-                                <h2>All startups need to make their business work</h2>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-pay"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5>How i spend my free time</h5>
+                                <p>I love browsing the internet for trending technology advances , Other times i don't mind awalk in the garden it's white interesting.</p>
                             </div>
                         </div>
-                        <div class="col-xl-7 col-lg-5 col-md-4">
-                            <div class="wantToWork-btn f-right">
-                                <a href={"#"} class="btn btn-ans">view more</a>
+                    </div>
+                    <div class=" col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-services text-center mb-30">
+                            <div class="services-ion">
+                                <span class="flaticon-good"></span>
+                            </div>
+                            <div class="services-cap">
+                                <h5>The future</h5>
+                                <p>No one can predict the future but everyone has a dream.I hope to work on a real product afew months from now</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </React.Fragment>
+        </div>
+            </React.Fragment> 
 
 
         )}}
