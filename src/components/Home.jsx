@@ -14,8 +14,8 @@ export default class Home extends Component {
                                 <img src="assets/img/hero/hero_img.jpg" alt=""   datatransitionDuration="5s"/>
                               </div>
                               <div className="hero__caption">
-                                  <h1 dataAnimation="fadeInLeft" dataDelay=".4s">Hi there, Iam Angella<br/>a sweet programmer</h1>
-                                  <p dataAnimation="fadeInLeft" dataDelay=".6s">i enjoy spending most of my time coding. My other super power is that am good at interacting with people at first site. i also love flowers and sausages hihi.</p>
+                                  <h1 dataAnimation="fadeInLeft" dataDelay=".4s">Hi there, I am Angella<br/>i enjoy programming</h1>
+                                  <p dataAnimation="fadeInLeft" dataDelay=".6s">i spend  most of my time coding , interaccting with new languages through browsing the internet. My other super power is a defined  interaction with other people at first site. i also love flowers , sausages and doing indoor sports.</p>
                                   {/* Hero Btn */}
                                  
                             </div>  
