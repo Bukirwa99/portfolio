@@ -12,8 +12,8 @@ import React,{Component} from 'react'
                                 <span class="flaticon-experience"></span>
                             </div>
                             <div class="services-cap">
-                                <h5>Academic background</h5>
-                                <p>I am currently a student at Makerere University, Pursuing a Bsc in Software engineering year1.i have interacted with the raect framework,html,css and javascript.</p>
+                                <h5>Contact</h5>
+                                <p>@ my email:angellabukirwa99@gmail.com<br/>My git account:Bukirwa99github.com.</p>
                             </div>
                         </div>
                     </div>
